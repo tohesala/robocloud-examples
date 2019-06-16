@@ -1,2 +1,2 @@
 #!/bin/bash
-git archive -o bundle.zip HEAD
+git archive --prefix=robocloud_examples/ -o bundle.zip HEAD
