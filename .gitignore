@@ -1,0 +1,6 @@
+output/
+venv/
+bundle.zip
+.vscode
+.DS_Store
+*.pyc
