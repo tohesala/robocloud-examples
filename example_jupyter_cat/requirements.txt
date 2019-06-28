@@ -1,4 +1,5 @@
 robotframework
 robotframework-seleniumlibrary
 robotframework-seleniumscreenshots
+pillow
 webdrivermanager

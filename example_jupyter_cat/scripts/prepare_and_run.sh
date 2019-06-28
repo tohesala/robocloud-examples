@@ -1,2 +1,2 @@
 #!/bin/bash
-scripts/prepare.sh & scripts/run.sh
+scripts/prepare.sh && scripts/run.sh

@@ -1,2 +1,4 @@
 #!/bin/bash
-scripts/prepare.sh & scripts/run.sh
+
+. venv/bin/activate
+scripts/prepare.sh && scripts/run.sh
