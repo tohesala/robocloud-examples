@@ -4,6 +4,8 @@ Jupyterlab version of Google Cat.
 
 Example contains scripts that show how Jupyterlab can be used as a development environment for RPA. Scripts are implemented for Ubuntu 19.04, but should be easy to adapt for other Linux distributions. Windows versions are yet to come.
 
+To manually run any of the scripts, you must `cd robocloud-examples/example_jupyter_cat`
+
 ## prepare_development_environment.sh
 
 Follow the instructions in Prepare Ubuntu 19.04 for Jupyterlab and then type:
