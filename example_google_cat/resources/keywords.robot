@@ -1,6 +1,5 @@
 *** Settings ***
 Library  SeleniumLibrary
-Library  KeywordLibrary
 
 *** Keywords ***
 Press enter
