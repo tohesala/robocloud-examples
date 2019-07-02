@@ -11,9 +11,8 @@ ENV DEPS="\
     xvfb \
 "
 
-COPY entry_point.sh /opt/bin/entry_point.sh
-
 RUN apk update
 RUN apk add --no-cache ${DEPS}
 
+COPY entry_point.sh /opt/bin/entry_point.sh
 ENTRYPOINT [ "/opt/bin/entry_point.sh" ]
