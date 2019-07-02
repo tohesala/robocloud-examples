@@ -6,9 +6,6 @@ else
     export browser=$1
 fi
 
-echo environment dump when starting
-set
-
 python3 -m venv venv
 . venv/bin/activate
 
