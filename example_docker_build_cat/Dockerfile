@@ -22,6 +22,4 @@ COPY bundle /bundle
 COPY requirements.txt /requirements.txt
 RUN pip install -r /requirements.txt
 
-RUN webdrivermanager chrome
-
 ENTRYPOINT [ "/opt/bin/entry_point.sh" ]
