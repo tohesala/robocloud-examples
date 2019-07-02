@@ -11,11 +11,17 @@ ENV DEPS="\
     xvfb \
 "
 
-COPY entry_point.sh /opt/bin/entry_point.sh
-
-COPY bundle /bundle
-
 RUN apk update
 RUN apk add --no-cache ${DEPS}
+
+RUN pip install --upgrade wheel pip setuptools
+
+COPY entry_point.sh /opt/bin/entry_point.sh
+COPY bundle /bundle
+
+COPY requirements.txt /requirements.txt
+RUN pip install -r /requirements.txt
+
+RUN webdrivermanager chrome
 
 ENTRYPOINT [ "/opt/bin/entry_point.sh" ]
