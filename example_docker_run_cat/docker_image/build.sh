@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t robocorp/robocloud-runtime .
+docker build -t robocorp/robocloud-generic-task-executor .
