@@ -7,8 +7,6 @@ ENV DEPS="\
     bash \
     chromium \
     chromium-chromedriver \
-    udev \
-    xvfb \
 "
 
 RUN apk update
