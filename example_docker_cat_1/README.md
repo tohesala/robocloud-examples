@@ -1,13 +1,18 @@
-Example of Robocloud with Docker container. Uses headless chrome.
+# Pre-build Docker image for a task
+
+Execute example_headless_cat with each run
 
 # Prerequisites
-Development environment and runtime must have Docker installed
-
-## Build docker image
-scripts/build_docker.sh builds a Docker image that can execute RPA task with Robocloud
+Development- and runtime- environments must have Docker
 
 ## Running tasks
-scripts/robocloud_runner.sh executes all tasks under /tasks folder
+
+Run docker that executes example_headless_cat
+
+    scripts/robocloud_runner.sh
 
 ## Running with Robocloud
-Bundle project by Downloading ZIP [https://github.com/robocloud/robocloud-examples/archive/master.zip] and use command "scripts/robocloud_runner example_docker_build_cat" in Robocloud.
+
+Download bundle from https://github.com/robocloud/robocloud-examples/archive/master.zip and execute with command:
+
+    scripts/robocloud_runner.sh example_docker_cat1
