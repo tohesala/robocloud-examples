@@ -1,18 +1,17 @@
-Example of Robocloud with generic Docker container
+# Generic Docker image for running a task
 
-In this example the task bundle is not embedded to Docker image, but is located in host file system. Uses headless chrome to execute task.
+Execute project that is contained in the bundle with generic Docker container
 
 # Prerequisites
-Development environment and runtime must have Docker installed
+Development- and runtime- environments must have Docker
 
 ## Running tasks
-
-Start docker container with:
+Run docker that executes example_headless_cat
 
     scripts/robocloud_runner.sh
 
 ## Running with Robocloud
 
-Download bundle https://github.com/robocloud/robocloud-examples/archive/master.zip and run with
+Download bundle from https://github.com/robocloud/robocloud-examples/archive/master.zip and execute with command:
 
-    scripts/robocloud_runner.sh example_docker_run_cat
+    scripts/robocloud_runner.sh example_docker_cat2
