@@ -1,6 +1,6 @@
-Example of Robocloud runtime Docker container
+# ROBOCLOUD DOCKER RUNTIME
 
-This example gives a recipe for Docker image that contains chrome for headless web browsing.
+Docker image that contains chrome for headless web browsing. Must be linked to Robocloud workspace with every run. Containers that exit must be manually deleted from Robocloud.
 
 # Prerequisites
 Development environment and runtime must have Docker installed
