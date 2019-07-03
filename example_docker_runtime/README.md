@@ -2,7 +2,7 @@
 
 Docker image that contains chrome for headless web browsing. Must be linked to Robocloud workspace with every run. Containers that exit must be manually deleted from Robocloud.
 
-# Prerequisites
+## Prerequisites
 Development environment and runtime must have Docker installed
 
 ## Running tasks
