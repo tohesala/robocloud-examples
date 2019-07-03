@@ -5,4 +5,4 @@
 #export DISPLAY=:99
 
 cd /bundle
-scripts/prepare_and_run.sh
+scripts/robocloud_runner.sh

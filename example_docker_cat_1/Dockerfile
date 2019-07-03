@@ -14,7 +14,6 @@ RUN pip install --upgrade wheel pip setuptools
 COPY entry_point.sh /opt/bin/entry_point.sh
 COPY bundle /bundle
 
-COPY requirements.txt /requirements.txt
-RUN pip install -r /requirements.txt
+RUN pip install -r /bundle/requirements.txt
 
 ENTRYPOINT [ "/opt/bin/entry_point.sh" ]
