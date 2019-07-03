@@ -1,10 +1,18 @@
-Simple Robot Framework RPA example project
+# Simple Robot Framework RPA example
+
+Search and download first cat image from google.
 
 ## Environment setup
-Run ./scripts/env_setup.sh to create a virtual environment with required python libraries (see requirements.txt) and chromedriver.
+Create a virtual environment with required python libraries (see requirements.txt) and chromedriver.
+
+    scripts/prepare.sh
 
 ## Running tasks
-Run ./scripts/run.sh to execute all tasks under /tasks folder
+Execute all tasks under /tasks folder
+
+    scripts/run.sh
 
 ## Running with Robocloud
-Bundle project with "git archive -o bundle.zip HEAD" or run ./scripts/create_bundle.sh
+Download project bundle https://github.com/robocloud/robocloud-examples/archive/master.zip and execute with command:
+
+    scripts/robocloud_runner.sh example_basic_cat
