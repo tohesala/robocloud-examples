@@ -1,8 +1,5 @@
 FROM python:3.7-alpine3.9
 
-ENV SCREEN_WIDTH 1280
-ENV SCREEN_HEIGHT 720
-ENV SCREEN_DEPTH 16
 ENV DEPS="\
     bash \
     chromium \
