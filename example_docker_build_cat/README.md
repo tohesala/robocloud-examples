@@ -10,4 +10,4 @@ scripts/build_docker.sh builds a Docker image that can execute RPA task with Rob
 scripts/robocloud_runner.sh executes all tasks under /tasks folder
 
 ## Running with Robocloud
-Bundle project by Downloading ZIP from Github and use command "scripts/robocloud_runner example_docker_build_cat"
+Bundle project by Downloading ZIP [https://github.com/robocloud/robocloud-examples/archive/master.zip] and use command "scripts/robocloud_runner example_docker_build_cat" in Robocloud.
