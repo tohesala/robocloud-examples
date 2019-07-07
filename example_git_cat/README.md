@@ -11,6 +11,5 @@ Even simpler way to configure self updating task is to not define any bundle, an
 ...and define in runtime instance/rtconfig.yml
 
     allowedCommands:
-      # OpenRPA convention: task runner script in scripts/
       - '**'
 
