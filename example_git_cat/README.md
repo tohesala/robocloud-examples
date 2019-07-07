@@ -8,3 +8,9 @@ Even simpler way to configure self updating task is to not define any bundle, an
 
     curl -L -o temp.zip https://github.com/robocloud/robocloud-examples/archive/master.zip; unzip temp.zip; rm temp.zip; cd *; scripts/robocloud_runner.sh example_basic_cat; mv output ../
 
+...and define in runtime instance/rtconfig.yml
+
+    allowedCommands:
+      # OpenRPA convention: task runner script in scripts/
+      - '**'
+
