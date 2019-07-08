@@ -1,0 +1,17 @@
+#
+# Robocloud Runtime Agent configuration
+#
+
+run:
+  #
+  # Specify commands allowed to be executed on this runtime.
+  #
+  # Incoming commands are matched against allowed commands list using micromatch:
+  #  - micromatch.isMatch(requestedCommand, allowedCommandsArray)
+  #  - See https://www.npmjs.com/package/micromatch#ismatch for reference
+  #
+  # Recommendation: Apply principle of least privilege. Use exact match
+  # with a single command when use case allows.
+  #
+  allowedCommands:
+    - '**'
