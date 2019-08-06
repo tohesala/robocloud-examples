@@ -4,6 +4,8 @@ This example builds a Docker container that includes the RPA bundle to be execut
 With each run of the container, example_headless_cat is executed inside container with headless chrome and then
 container exits.
 
+Note that runtime is still running in host machine and it uses docker container only to execute the bundle.
+
 # Prerequisites
 
 Development- and runtime- environments must have Docker
