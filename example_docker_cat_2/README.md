@@ -1,6 +1,10 @@
 # Generic Docker image for running a task
 
-Execute project that is contained in the bundle with generic Docker container
+This example contains a recipe to build a generic Docker container that can execute any task bundle with headless chrome.
+Task bundle is mounted to Docker container so that run command can execute it and artifacts are available for the runtime after
+container exits.
+
+Note that runtime is still running in host machine and it runs new Docker container every time to execute task bundle. 
 
 # Prerequisites
 Development- and runtime- environments must have Docker
