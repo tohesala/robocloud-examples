@@ -1,8 +1,11 @@
 # Pre-build Docker image for a task
 
-Execute example_headless_cat with each run
+This example builds a Docker container that includes the RPA bundle to be executed (example_headless_cat).
+With each run of the container, example_headless_cat is executed inside container with headless chrome and then
+container exits.
 
 # Prerequisites
+
 Development- and runtime- environments must have Docker
 
 ## Running tasks
