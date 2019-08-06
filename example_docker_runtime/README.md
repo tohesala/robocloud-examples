@@ -1,13 +1,13 @@
 # ROBOCLOUD DOCKER RUNTIME
 
-Docker image that contains chrome for headless web browsing. 
+This example contains a recipe for Docker image that can function as a independent runtime. Image contains Robocloud runtime and headless chrome for automating web browsing tasks.
 
 ## Prerequisites
 Development environment and runtime must have Docker installed
 
 ## Disposable Container
 
-This type of container requires new link token from Robocloud for every run. Stopped containers must be manually deleted from Robocloud.
+This type of container requires new link token from Robocloud for every run. For now, stopped containers must be deleted manually from Robocloud as APIs for automating that task are not yet implemented.
 
 Start docker container with:
 
